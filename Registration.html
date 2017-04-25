@@ -1,0 +1,243 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Demet Noyan</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap-3.3.7-dist\css\bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap-3.3.7-dist\css\mystyle.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="container-fluid">
+<div class="well">
+<header>
+<h1>Registration Form</h1>
+</header>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <ul class="nav navbar-nav">
+    <li><a class="list-group-item" href="index.html">Home</a></li>
+    <li class="active" class="dropdown">
+          <a href="#" class="list-group-item" data-toggle="dropdown" role="button" aria-expanded="true">Personal Information <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+          <li><a href="Personal.html">Personal Information</li>
+            <li><a href="MyFamily.html">My Family</a></li>
+            <li><a href="MyHobbies.html">MyHobbies</a></li>
+            <li><a href="MyHometown.html">Hometown</a></li>
+          </ul>
+        </li>
+    <li><a class="list-group-item" href="Registration.html">Registration Form</a></li>
+    <li><a class="list-group-item" href="ContactMe.html">Contact</a></li>
+  </ul>
+</nav>
+  <div class="container-fluid">
+<div class="jumbotron">
+<form class="form-horizontal" method="post" enctpye="multipart/form-data">
+  <fieldset>
+
+<div class="form-group">
+<label for="inputName" class="col-lg-2 control-label">Enter Name & Surname</label>
+<div class="col-lg-3">
+<input type="text" class="form-control" placeholder="Name & Surname"  id="inputName">
+</div>
+</div>
+
+<div class="form-group">
+<label for="inputEmail" class="col-lg-2 control-label">Email</label>
+<div class="col-lg-3">
+<input type="email" class="form-control" placeholder="Email"  id="inputEmail">
+</div>
+</div>
+
+<div class="form-group">
+<label for="inputPassword" class="col-lg-2 control-label">Enter Password</label>
+<div class="col-lg-3">
+<input type="password" class="form-control" id="inputPassword" required>
+</div>
+</div>
+
+<div class="form-group">
+<label for="inputDate" class="col-lg-2 control-label">Enter Your Birth Date</label>
+<div class="col-lg-3">
+<input type="date" class="form-control" id="inputDate" value="1995-10-29">
+</div>
+</div>
+
+<div class="form-group">
+<label for="inputCity" class="col-lg-2 control-label">Select Your City</label>
+<div class="col-lg-3">
+<select class="form-control" id="inputCity">
+ 
+     <option value="34">Istanbul</option>
+    <option value="6">Ankara</option>
+    <option value="35">Izmir</option>
+    <option value="1">Adana</option>
+    <option value="2">Adıyaman</option>
+    <option value="3">Afyonkarahisar</option>
+    <option value="4">Ağrı</option>
+    <option value="68">Aksaray</option>
+    <option value="5">Amasya</option>
+    <option value="7">Antalya</option>
+    <option value="75">Ardahan</option>
+    <option value="8">Artvın</option>
+    <option value="9">Aydın</option>
+    <option value="10">Balıkesır</option>
+    <option value="74">Bartın</option>
+    <option value="72">Batman</option>
+    <option value="69">Bayburt</option>
+    <option value="11">Bılecık</option>
+    <option value="12">Bıngol</option>
+    <option value="13">Bıtlıs</option>
+    <option value="14">Bolu</option>
+    <option value="15">Burdur</option>
+    <option value="16">Bursa</option>
+    <option value="17">Canakkale</option>
+    <option value="18">Cankırı</option>
+    <option value="19">Corum</option>
+    <option value="20">Denızlı</option>
+    <option value="21">Dıyarbakır</option>
+    <option value="81">Duzce</option>
+    <option value="22">Edırne</option>
+    <option value="23">Elazığ</option>
+    <option value="24">Erzıncan</option>
+    <option value="25">Erzurum</option>
+    <option value="26">Eskısehır</option>
+    <option value="27">Gazıantep</option>
+    <option value="28">Gıresun</option>
+    <option value="29">Gumushane</option>
+    <option value="30">Hakkârı</option>
+    <option value="31">Hatay</option>
+    <option value="76">Iğdır</option>
+    <option value="32">Isparta</option>
+    <option value="46">Kahramanmaras</option>
+    <option value="78">Karabük</option>
+    <option value="70">Karaman</option>
+    <option value="36">Kars</option>
+    <option value="37">Kastamonu</option>
+    <option value="38">Kayserı</option>
+    <option value="71">Kırıkkale</option>
+    <option value="39">Kırklareli</option>
+    <option value="40">Kırsehır</option>
+    <option value="79">Kılıs</option>
+    <option value="41">Kocaelı</option>
+    <option value="42">Konya</option>
+    <option value="43">Kutahya</option>
+    <option value="44">Malatya</option>
+    <option value="45">Manısa</option>
+    <option value="47">Mardın</option>
+    <option value="33">Mersın</option>
+    <option value="48">Muğla</option>
+    <option value="49">Mus</option>
+    <option value="50">Nevsehir</option>
+    <option value="51">Nığde</option>
+    <option value="52">Ordu</option>
+    <option value="80">Osmanıye</option>
+    <option value="53">Rıze</option>
+    <option value="54">Sakarya</option>
+    <option value="55">Samsun</option>
+    <option value="56">Sıırt</option>
+    <option value="57">Sınop</option>
+    <option value="58">Sıvas</option>
+    <option value="73">Sırnak</option>
+    <option value="59">TekIrdağ</option>
+    <option value="60">Tokat</option>
+    <option value="61">Trabzon</option>
+    <option value="62">TuncelI</option>
+    <option value="63">Sanlıurfa</option>
+    <option value="64">Usak</option>
+    <option value="65">Van</option>
+    <option value="77">Yalova</option>
+    <option value="66">Yozgat</option>
+    <option value="67">Zonguldak</option>
+</select>
+</div>
+</div>
+
+<div class="form-group">
+<label for="inputText" class="col-lg-2 control-label">Write About Yourself</label>
+<div class="col-lg-3">
+<textarea class="form-control" rows="3" id="inputText" ></textarea>
+</div>
+</div>
+
+
+<div class="form-group">
+<label for="inputFile" class="col-lg-2 control-label">Upload Files</label>
+<div class="col-lg-3">
+<input type="file" class="form-control" id="inputFile">
+</div>
+</div>
+
+<div class="form-group">
+      <label class="col-lg-2 control-label">Gender</label>
+      <div class="col-lg-3">
+        <div class="radio">
+          <label>
+            <input type="radio" name="genderRadio" id="gender1">
+            Male
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="genderRadio" id="gender2">
+            Female
+          </label>
+        </div>
+      <div class="form-group">
+           <label for="selectfiles" class="col-lg-2 control-label">Select your intrests</label>
+           <div class="col-lg-3">
+            <div class="checkbox">
+             <label>
+            <input type="checkbox" name="movie">Movie<br>
+            <input type="checkbox" name="Computer Games">Computer Games<br>
+            <input type="checkbox" name="Book">Book<br>
+            <input type="checkbox" name="write">Writing 
+         </label>
+         </div>
+         </div>
+         </div>
+
+
+<div class="form-group">
+      <div class="col-lg-10 col-lg-offset-2">
+        <button type="button" class="btn btn-default" padding: 10px 24px;>Cancel</button>
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" padding: 10px 24px; >Submit</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Web site message</h4>
+        </div>
+        <div class="modal-body">
+          <p>Thank you for registration!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+      </div>
+    </div>
+
+
+  </fieldset>
+</div>
+</form>
+
+</div>
+</body>
+</html>
